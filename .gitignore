@@ -1,0 +1,8 @@
+.ignore
+.python-version
+
+.cache/
+.ruff_cache/
+.venv/
+__pycache__/
+build/
