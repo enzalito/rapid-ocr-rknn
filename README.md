@@ -33,8 +33,7 @@ On the target device:
 ```sh
 cmake -S . -B build \
     -DCMAKE_BUILD_TYPE=Release \
-    -DPLATFORM=<plat> \
-    -DARCH=<arch>
+    [-DUCLIBC] # needed for some linux targets (e.g rv1106, rv1103)
 
 cmake --build build --parallel
 ```
